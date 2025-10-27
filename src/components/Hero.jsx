@@ -1,13 +1,12 @@
-import Spline from '@splinetool/react-spline';
 import { PlayCircle, Trophy, Mail } from 'lucide-react';
 
 export default function Hero() {
   return (
     <section id="home" className="relative min-h-[70vh] md:min-h-[80vh] flex items-center overflow-hidden">
-    
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/8F6l3w7Jt7q5oHPB/scene.splinecode" style={{ width: '100%', height: '100%' }} />
-        <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-white/70 to-white pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-pink-50" />
+        <div className="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-indigo-200/40 blur-3xl" />
+        <div className="absolute -bottom-32 -left-24 h-96 w-96 rounded-full bg-pink-200/40 blur-3xl" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
