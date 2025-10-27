@@ -2,9 +2,9 @@ import { GraduationCap, BookOpen, ClipboardList, Timer, CheckCircle2, MapPin, Ba
 
 export default function Features() {
   return (
-    <section className="relative">
-      {/* About */}
-      <section id="about" className="relative py-16 md:py-24 bg-slate-50">
+    <div className="relative">
+      {/* Overview */}
+      <section id="overview" className="relative py-16 md:py-24 bg-slate-50">
         <div className="absolute inset-0 bg-gradient-to-b from-slate-50 via-white to-slate-50 pointer-events-none" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 md:grid-cols-2 items-center">
@@ -130,7 +130,7 @@ export default function Features() {
           </div>
         </div>
       </section>
-    </section>
+    </div>
   );
 }
 
